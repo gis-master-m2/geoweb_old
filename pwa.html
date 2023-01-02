@@ -60,7 +60,9 @@ var map;  // tambien const map;
    <script>
     console.info(navigator.serviceWorker.controller)
         if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("js/serviceworker.js").then(function (reg) {
+            navigator.serviceWorker.register("serviceworker.js").then(function (reg) {
+
+                console.info(reg)
             });
         }
   </script>
