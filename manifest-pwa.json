@@ -6,7 +6,7 @@
     "display": "standalone",
     "scope": "/geoweb/",
     "orientation":"any",
-    "start_url": "/geoweb/",
+    "start_url": "/geoweb/pwa.html",
     "icons": [
 
       {
